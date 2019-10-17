@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
 .body{
   font-family: TimesNewRoman,cursive;
-
-
   font-size:16px;
   }
-  p{
+body {
+      
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), url(https://pixabayphoto.co/wp-content/uploads/2018/10/dry-leaves-wallpapers-inspirational-canon-eos-30d-hi-tech-autumn-nature-dry-leaves-photo-hd-wallpaper-of-dry-leaves-wallpapers.jpg);      background-size: cover;
+  background-size:cover;
+  background-size: cover;   
+}
+
+p{
   color:#fff;
   font-size:0.7em;
-  }
-  h1,h2,h3,h4,h5,h6{
-    color:#323233;
-    text-transform:uppercase;
-  }
-
-  blockquote
-  {
-    text-align: right;
-      font-size:16px;
-
-  }
+}
+  
+blockquote{
+  text-align: right;
+  font-size:16px;
+}
 
 
- span{
+span{
   color: #fff;
   font-size:25px;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
   font-weight:7000;
   letter-spacing:0.1em;
 }
@@ -38,30 +37,32 @@
     color: #fff;
    font-family: 'Gothic A1', sans-serif;
 }
-.navbar-nav .nav-item .nav-link:hover{color:#aaa;}
+
 .navbar-expand-md .navbar-nav {
   border-top:3px solid #aaa;
 }
 
   /*color of navbar*/
- .shrink {
+.shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
 }
+
 .banner{
   background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),url('images/walpers.jpg');
   text-align: auto;
-    color: #aaa;
+  color: #aaa;
    
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 .banner-text{
   padding:150px 0px 20px 0px;
 }
@@ -105,17 +106,17 @@
   padding:150px 0 150px 0;
 }
 
-
 .banner-sub-heading{
   font-size: 10px;
     font-weight: 200;
     line-height: 10px;
     margin-bottom: 40px;
 }
- span{
+
+span{
   color: #fff;
   font-size:1em;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
   font-weight:7000;
   letter-spacing:0.1em;
 }
@@ -159,10 +160,3 @@
     color: #FF3B30;
 }
 
-body {
-      
-      background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), url(https://pixabayphoto.co/wp-content/uploads/2018/10/dry-leaves-wallpapers-inspirational-canon-eos-30d-hi-tech-autumn-nature-dry-leaves-photo-hd-wallpaper-of-dry-leaves-wallpapers.jpg);      background-size: cover;
-            background-size:cover;
-                  background-size: cover;
-   
-    }
