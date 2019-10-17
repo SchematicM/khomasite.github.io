@@ -3,8 +3,22 @@ body{
     background-size:cover;
     background-size: cover;
 
-        }
-h1,h2,h3 {
+}
+hr{
+    background: grey;  
+}
+
+.contact-form{
+    background:rgba(0,0,0, .4);
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+
+
+
+h1 {
     margin:0 0 35px 0;
     font-family: 'Patua One', cursive;
     text-transform: uppercase;
@@ -18,13 +32,11 @@ p{
     font-size:14px;
     line-height:1.6em;
 }
+
 a{
     color:#fff;
 }
-a:hover,a:focus{
-    text-decoration:none;
-    color:#fff;
-}
+
 
 textarea.form-control{
     height:100px;
@@ -39,16 +51,4 @@ textarea.form-control{
 }
 
 
-
-hr{
-     background: grey;  
-}
-
-.contact-form{
-      background:rgba(0,0,0, .4);
-      color:white;
-      margin-top: 100px;
-      padding: 20px;       
-      box-shadow: 0px 0px 10px 3px grey;
-}
 
