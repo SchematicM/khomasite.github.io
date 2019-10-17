@@ -27,11 +27,15 @@ body,header {
   background:rgba(0,0,0, .7);
 }
 
-
-.carousel-item img{
-    hei: 50%;
-    weight: 50%;
+.carousel-inner {
+  height: auto;
+  overflow: hidden;
 }
+.carousel-item {
+  max-height: auto;
+  overflow: hidden;
+  width: 100%;
+  }
 
 @media (max-width: 688px) {
     .carousel-item img{
