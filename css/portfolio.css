@@ -1,0 +1,47 @@
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body,header {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), url(https://pixabayphoto.co/wp-content/uploads/2018/10/dry-leaves-wallpapers-inspirational-canon-eos-30d-hi-tech-autumn-nature-dry-leaves-photo-hd-wallpaper-of-dry-leaves-wallpapers.jpg);      background-size: cover;
+      color: #fff; /* Цвет текста */
+      background-size: cover;
+      text-align: auto;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+.carousel-caption h3
+{
+  color:#fff !important;
+  background:rgba(0,0,0, .7);
+}
+
+
+.carousel-item img{
+    hei: 50%;
+    weight: 50%;
+}
+
+@media (max-width: 688px) {
+    .carousel-item img{
+        max-height: 50%;
+        min-height: 50%;
+    }
+}
+
+
+
+
+
