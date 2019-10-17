@@ -38,8 +38,13 @@ body,header {
   }
 
 @media (max-width: 688px) {
-    .carousel-item img{
-        max-height: 50%;
-        min-height: 50%;
-    }
+    .carousel-inner {
+  height: auto;
+  overflow: hidden;
+}
+.carousel-item {
+  max-height: auto;
+  overflow: hidden;
+  width: 100%;
+  }
 }
